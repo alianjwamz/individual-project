@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #fbe4d7;
+            padding: 20px 10px;
+            text-align: center;
+			background-image: url('background.jpg');
+			height: 25vh; /* Full viewport height */
+        }
+
+        header h1 {
+            font-family: 'Georgia', serif;
+            font-size: 3rem;
+			margin: 5px;
+			color: #330000;
+        }
+
+        header nav {
+            margin-top: 15px;
+			padding: 10px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #330000;
+            margin: 0 20px;
+            font-size: 1rem;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+		
+		/* Slideshow Container */
+        .slideshow-container {
+            width: 300px;
+			height: 400px;
+            max-width: 800px;
+            margin: 20px auto;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .slides {
+            display: flex;
+            animation: slide 10s infinite;
+            transition: transform 1s ease-in-out;
+        }
+
+        .slides img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Keyframe Animation for Sliding */
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+            20% {
+                transform: translateX(0);
+            }
+            25% {
+                transform: translateX(-100%);
+            }
+            45% {
+                transform: translateX(-100%);
+            }
+            50% {
+                transform: translateX(-200%);
+            }
+            70% {
+                transform: translateX(-200%);
+            }
+            75% {
+                transform: translateX(-300%);
+            }
+            95% {
+                transform: translateX(-300%);
+            }
+        }
+
+        /* Content Section */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            color: #330000;
+			font: Arial, sans-serif;
+        }
+		
+		.contact-links {
+            font-family: Arial, sans-serif;
+        }
+
+        .contact-links a {
+            display: inline-block;
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px 20px;
+            color: #000000;
+            font-size: 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+		
+		.contact-links a.whatsapp {
+            background-color: #25d366; /* WhatsApp green */
+        }
+
+        .contact-links a.whatsapp:hover {
+            background-color: #1da851;
+        }
+
+        .contact-links a.email {
+            background-color: #0078d7; /* Email blue */
+        }
+
+        .contact-links a.email:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+
+<body>
+	<!-- Header Section -->
+    <header>
+        <h1>꧁ᬊᬁ ANMZ WEBSITE ᬊ᭄꧂</h1>
+        <nav>
+             <a href="file:///C:/Users/LENOVO/Desktop/assignment/home.html" class="active">Home</a>
+			<a href="file:///C:/Users/LENOVO/Desktop/assignment/about%20me.html">About Me</a>
+			<a href="file:///C:/Users/LENOVO/Desktop/assignment/education.html">Education</a>
+			<a href="file:///C:/Users/LENOVO/Desktop/assignment/achievements.html">Achievements</a>
+			<a href="file:///C:/Users/LENOVO/Desktop/assignment/family.html">Family</a>
+			<a href="file:///C:/Users/LENOVO/Desktop/assignment/gallery.html">Gallery</a>
+			<a href="file:///C:/Users/LENOVO/Desktop/assignment/social%20media.html">Social Media</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <h2 align="center"><i>Hi! I am Alia Najwa!!</i></h2>
+        <p align="center">Thanks for stopping by!</p>
+    <div class="slideshow-container">
+        <div class="slides">
+            <img src="photo6.jpg" alt="Image 1">
+            <img src="photo7.jpg" alt="Image 2">
+            <img src="photo8.jpg" alt="Image 3">
+            <img src="photo9.jpg" alt="Image 4">
+        </div>
+    </div>
+	<div class="container">
+
+        <!-- Biodata Section -->
+        <div id="biodata" class="section biodata">
+            <h2>Biodata</h2>
+            <p><strong>Name:</strong> Nur Alia Najwa Binti Mohamad Zamri</p>
+            <p><strong>Age:</strong> 20 years old</p>
+            <p><strong>Address:</strong> Lot 620 Kampung Tini, Jalan Pasir Hor 15100 Kota Bharu, Kelantan</p>
+			<p><strong>Studies:</strong> Diploma of Information Management</p>
+			<p><strong>Hobbies:</strong> Reading and playing games</p>
+        </div>
+		
+		<!-- Fun Facts Section -->
+        <div id="fun facts" class="section fun facts">
+            <h2>Fun Facts</h2>
+            <p><strong>Favorite Color:</strong> Red</p>
+            <p><strong>Favorite Animal:</strong> Cat</p>
+            <p><strong>Favorite Food:</strong> Burger and Kuey Teow Goreng</p>
+			<p><strong>Favorite Drink:</strong> Chocolate</p>
+			<p><strong>Favorite Sports:</strong> Netball and Badminton</p>
+        </div>
+		
+		<!-- Biodata Section -->
+        <div id="contacts" class="section contacts">
+		<div class="experience">
+            <h2>Experience:</h2>
+            <ul>
+                <li>Practical at Ain Medicare Sdn Bhd</li>
+            </ul>
+        </div>
+		
+		<div>
+            <h2>My Playlist:</h2>
+			<div>
+				<p><audio controls><source src="unity.m4a" type="audio/mpeg"></audio></p>
+				<p><audio controls><source src="aku yang jatuh cinta.m4a" type="audio/mpeg"></audio></p>
+			</div>
+        </div>
+		
+		<div class="contact-links">
+		<h2>Contacts:</h2>
+        <!-- WhatsApp Link -->
+        <a href="https://www.wasap.my/0137995707/pm" class="whatsapp" target="_blank">
+				Chat on WhatsApp
+        </a>
+
+        <!-- Email Link -->
+        <a href="https://mail.google.com/mail/u/0/#inbox" class="email">
+				Send an Email
+        </a>
+		</div>
+</body>
+</html>
